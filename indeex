@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>John Lopez</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="css/Icons/all.min.css">
+        <link rel="stylesheet" href="css/Icons/fontawesome.min.css">
+        <link rel="stylesheet" href="css/Icons/fontawesome.min.css">
+    </head>
+
+    <header class="top">
+            <nav class="Controll">
+                <a href="#About">About</a>
+                <a href="#WID">What I Do</a>
+                <a href="#Tools">Tools</a>
+                <a href="#Work">My Works</a>
+                <a href="#Contact">Contact</a>
+            </nav>
+        </a>
+    </header>
+    <body>
+        
+        <div class="Introduction">git
+                <p>John Patrick Lopez</p>
+                <h1>Graphic Artist</h1>
+        </div>
+        <div class="cutter1"></div>
+        <div class="About" id="About">
+                <p>About</p>
+                <p>This is the Introduction</p>
+        </div>
+        <div class="Service" id="WID">
+
+        </div>
+        <div class="Softwares" id="Tools">
+
+        </div>
+        <div class="Work" id="Work">
+
+        </div>
+        <div class="Cutter2"></div>
+        <div class="Contact" id="Contact">
+
+        </div>
+    </body>
+</html>
