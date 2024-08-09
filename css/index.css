@@ -47,3 +47,40 @@
 .Introduction h1{
     text-decoration: underline;
 }
+
+@media  screen and (max-width: 650px) {
+    .Controll a{
+        text-decoration: none;
+        margin-left: 40px;
+        font-size: 15px;
+        color: black;
+    }
+    .Controll a{
+        position: relative;
+        text-decoration: none;
+        margin-left: 10px;
+        font-size: 15px;
+        color: black;
+    }
+    .Controll a::after{
+        content: '';
+        position: absolute;
+        width: 100%;
+        left: 0;
+        bottom: -6px;
+        height: 3px;
+        border-radius: 5px;
+        background: #000000;
+        transform: scaleX(0);
+        transition: .5s;
+    }
+        
+    .Introduction p{
+        font-size: 50px;
+        text-align: left;
+}
+    .Introduction h1{
+        text-decoration: underline;
+        font-size: 20px;
+}
+}
